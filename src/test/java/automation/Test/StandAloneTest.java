@@ -20,7 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import io.reactivex.rxjava3.functions.Action;
 
 public class StandAloneTest {
-
+//new comments
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\work\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
